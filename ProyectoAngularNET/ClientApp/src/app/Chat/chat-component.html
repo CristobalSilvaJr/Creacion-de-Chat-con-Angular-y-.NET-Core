@@ -1,0 +1,4 @@
+﻿<!-- *ngFor: let es elemento singular, y le indicamos de donde "of" junto con la coleccion "chatMessages"-->
+<!-- la variable texto viene de {message.component.ts} es de tipo Input -->
+<app-message *ngFor="let elemento of chatMessages" [texto]="elemento">
+</app-message>
